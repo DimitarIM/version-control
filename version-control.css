@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: #FFEDDF;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    background-color: #0d1321;
+}
+
+.header_page-title {
+    color: #FFEDDF;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.git-commands {
+    margin: 24px;
+    display: grid;
+    gap: 16px;
+    font-size: 2rem;
+    grid-template: repeat(6, 1fr) / 1fr 3fr
+}
+
+.git-commands_command {
+    background-color: #86615C;
+
+    color: #FFEDDF;
+    padding: 16px;
+}
+
+.git-commands_effect {
+    background-color: #AFE0CE;
+    color: #0d1321;;
+    padding: 16px;
+}
